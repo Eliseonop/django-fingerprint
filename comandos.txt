@@ -1,0 +1,26 @@
+Lista de los comandos de django:
+
+django-admin start project <nombre_proyecto> : Crea un nuevo proyecto de Django.
+
+django-admin startapp <nombre_app> : Crea una nueva aplicación de Django.
+
+python manage.py runserver : Inicia el servidor de desarrollo.
+
+python manage.py makemigrations : Crea las migraciones de la base de datos.
+
+python manage.py makemigrations <nombre_app> : Crea las migraciones de una aplicación.
+
+python manage.py migrate : Aplica las migraciones pendientes.
+
+python manage.py showmigrations : Muestra las migraciones.
+
+
+python manage.py sqlmigrate <nombre_app> <número_migración> : Muestra el SQL de una migración.
+
+python manage.py collectstatic : Recolecta los archivos estáticos en una carpeta.
+
+python manage.py createsuperuser : Crea un superusuario.
+
+python manage.py shell : Inicia la consola interactiva de Django.
+
+
